@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Login</title>
+
+<!-- Imagen de fondo, ajustes con css -->
+<style>
+    body{
+        background: #1E4A2E ;
+        background: linear-gradient(to rigth, #01260E, #05F240);
+    }
+    .bg{
+        background-image: url(img/rick5.jpg);
+        background-position: center center;
+    } 
+</style>
+
+</head>
+
+<body>
+    <div class="container w-75 bg-primary mt-5 rounded-3 shadow">
+        <div class="row align-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+            </div>
+        <div class="col bg-white p-5 rounded">
+            
+            <div class="text-center">
+                <img src="img/logoerick.png" width="100" alt="rick" >
+            </div>
+<!-- Titulo 2 con especificaciones de bootstrap "fw-bold text-center py-5" -->
+<h1 class="fw-bold text-center py-5"> Welcome </h1>
+            <!-- Login -->
+            <form action="">
+<!-- Primer barra de email -->
+                <div class="mb-4">
+                    <label for="email" class="form-label">  </label> 
+                    <input type="email" placeholder="Email"  class="form-control" name="email">
+                </div>
+<!-- Segunda barra de password -->
+                <div class="mb-4">
+                    <label for="password" class="form-label">  </label> 
+                    <input type="Password" placeholder="Password"  class="form-control" name="Password">
+                </div>
+<!-- Mantenerse conectado de tipo chekbox -->
+                <div class="mb-4">
+                    <input type="checkbox" name="Connected" class="form-chek-input"
+                    < label for="Connected" class="form-check-label"> Keep me connected</label>
+                </div>
+<!-- Boton para iniciar sesion -->
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Log in</button>
+                </div>
+<!-- Sesion olvidada y registro de cuenta nueva-->
+                <div class="my-3">
+                    <span>You do not have an account?<a href="#">  Sing up</a> </span>
+                    <br>
+                    <span> <a href="#">Recover password</a> </span>                    
+                </div>
+            </form>
+<!-- Entrar con redes sociales -->
+<div class="container w-100 my-5">
+    <div class="row text-center">
+        <div class="col-12">Log in with:</div>
+    </div>
+    <div class="row">
+<!-- Login with facebook -->
+        <div class="col">
+            <button class="btn btn-outline-primary w-100 my-1">
+                <div class="row align-items-center">
+                    <div class="col-2 d-none d-md-block">
+                        <img src="img/facebook.png" width="32" alt="fb">
+                    </div>
+                    <div class="col-12 col-md-10 text-center">
+                        Facebook
+                    </div>
+                </div>
+            </button>
+        </div>
+<!-- Login with Google -->
+        <div class="col">
+            <button class="btn btn-outline-primary w-100 my-1">
+                <div class="row align-items-center">
+                    <div class="col-2 d-none d-md-block">
+                        <img src="img/google.png" width="32" alt="google">
+                    </div>
+                    <div class="col-12 col-md-10 text-center">
+                        Google
+                    </div>
+                </div>
+            </button>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="blockquote-footer">
+    <p class="footer-title text-center"> <a href="https://www.facebook.com/erick.dominguez.56027/"> By: "Erick Dominguez" </a> </p>
+    <br> <br> <p class="lang" key="derechos"> &#169; 2021 copyright all right reserved</p>
+</footer>
+<!-- Script de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+<!--HTML y CSS  https://www.youtube.com/watch?v=NDQfhTWyD8E&t=1532s -->
+<!--PHP https://www.youtube.com/watch?v=cka0J41iJY0 -->
